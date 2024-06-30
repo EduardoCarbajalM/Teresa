@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teresa</title>
+    <style>
+        table {
+            width: 450px;
+            height: 580px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .contenedor {
+            display: grid;
+        }
+    </style>
+</head>
+<body>
+    <table border="2px">
+        <tr class="contenedor">
+            <td>
+                <h1>FABRICA TERESA S.A. de C.V.</h1> <br>
+                <h3>Tipo de cambio Dolar: 18.65 MXN</h3> <br>
+                Precios de hoy:
+                <p>1) Motor              20.00 USD</p> 
+                <p>2) Chasis             15.00 USD</p>
+                <p>3) Llantas            1.00 USD</p>
+                <p>4) Adornos            1.50 USD</p>
+                <form action="teresa.php">
+                    <h3>Escoge el numero de piezas:</h3> 
+                    Motor:
+                    <input type="number" name="motor"> <br> <br>
+                    Chasis: 
+                    <input type="number" name="chasis"> <br> <br>
+                    Llantas:
+                    <input type="number" name="llantas"> <br> <br>
+                    Adornos: 
+                    <input type="number" name="adornos"> <br> <br>
+                    <input type="submit" value="Pedir Orden" id="boton">
+                </form>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
